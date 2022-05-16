@@ -198,7 +198,7 @@ h2 {
     text-transform: capitalize;
 }
 
-.filters li:not(:first-of-type):not(:last-of-type):not(:nth-of-type(2)) {
+.filters li:not(:first-of-type):not(:last-of-type):not(:nth-of-type(3)) {
     cursor: grab;
 }
 
