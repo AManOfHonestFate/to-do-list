@@ -1,4 +1,4 @@
-const placeholders = ['go shopping', 'feed my dog', 'learn js', 'call mom', 'visit doctor', 'walk cat', 'do homework', 'make sandwich', 'book hotel', 'order pizza', 'learn css', 'learn html']
+const placeholders = ['call Ben', 'play football' ,'go shopping', 'feed my dog', 'learn js', 'call mom', 'visit doctor', 'walk cat', 'do homework', 'make sandwich', 'book hotel', 'order pizza', 'learn css', 'learn html']
 
 let currentFilter = {
     dragging: false,
