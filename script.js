@@ -76,7 +76,7 @@ function addTask(text, idx = 0, completed = false, filter = '') {
 
     $('.container input')
         .val('')
-        .attr('placeholder', placeholders[Math.floor(Math.random() * placeholders.length + 1)]);
+        .attr('placeholder', placeholders[Math.floor(Math.random() * placeholders.length)]);
 
     const $newToDo = $(`<li><p>${text}</p><button></button><div class="group"></div></li>`) 
         .data({
