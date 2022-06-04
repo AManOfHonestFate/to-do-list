@@ -7,7 +7,7 @@ let currentFilter = {
 
 
 $('.container input').attr('placeholder',
-    placeholders[Math.floor(Math.random() * placeholders.length + 1)])
+    placeholders[Math.floor(Math.random() * placeholders.length)])
 
 let tasksManager = {
     allTasks: null,
